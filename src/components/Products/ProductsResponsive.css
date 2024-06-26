@@ -1,0 +1,166 @@
+@media screen and (max-width: 1500px) {
+  html {
+    font-size: 90%;
+  }
+}
+@media screen and (max-width: 1400px) {
+  html {
+    font-size: 85%;
+  }
+}
+@media screen and (max-width: 1300px) {
+  html {
+    font-size: 75%;
+  }
+}
+@media screen and (max-width: 1190px) {
+  html {
+    font-size: 70%;
+  }
+}
+@media screen and (max-width: 1075px) {
+  html {
+    font-size: 65%;
+  }
+  section {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 990px) {
+  html {
+    font-size: 60%;
+  }
+}
+@media screen and (max-width: 950px) {
+  html {
+    font-size: 50%;
+  }
+  section {
+    height: 60vh;
+  }
+  .comparison-table img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 770px) {
+  html {
+    font-size: 45%;
+  }
+
+  section {
+    height: 50vh;
+  }
+  .comparison-table img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 690px) {
+  html {
+    font-size: 40%;
+  }
+  .comparison-table img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  html {
+    font-size: 30%;
+  }
+  section {
+    height: 40vh;
+  }
+  .comparison-table img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 530px) {
+  html {
+    font-size: 50%;
+  }
+  section {
+    height: 100vh;
+  }
+  .column {
+    flex-direction: column;
+  }
+  .specs {
+    width: 100%;
+  }
+  .column-buttons {
+    flex-direction: column-reverse;
+    gap: 3rem;
+  }
+  .image-parent {
+    width: 100%;
+  }
+  .comparison-table {
+    display: inline;
+  }
+  .comparison-table img {
+    width: 100%;
+  }
+  .column-container1 {
+    display: none;
+  }
+}
+@media screen and (max-width: 430px) {
+  html {
+    font-size: 50%;
+  }
+  section {
+    height: 100vh;
+  }
+  .column {
+    flex-direction: column;
+  }
+  .specs {
+    width: 100%;
+  }
+  .column-buttons {
+    flex-direction: column-reverse;
+    gap: 3rem;
+  }
+  .image-parent {
+    width: 100%;
+  }
+  .comparison-table {
+    display: inline;
+  }
+  .comparison-table img {
+    width: 100%;
+  }
+  .column-container1 {
+    display: none;
+  }
+}
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 46%;
+  }
+  section {
+    height: 100vh;
+  }
+  .column {
+    flex-direction: column;
+  }
+  .specs {
+    width: 100%;
+  }
+  .column-buttons {
+    flex-direction: column-reverse;
+    gap: 3rem;
+  }
+  .image-parent {
+    width: 100%;
+  }
+  .comparison-table {
+    display: inline;
+  }
+  .column-container1 {
+    display: none;
+  }
+  .comparison-table img {
+    width: 100%;
+  }
+}

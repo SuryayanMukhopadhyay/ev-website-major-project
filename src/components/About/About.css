@@ -1,0 +1,139 @@
+@keyframes transitionInDownToUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.about {
+  max-height: 100vh;
+  animation: transitionInDownToUp 1.5s;
+  padding: 8% 10%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.text-section h1 {
+  font-size: 4rem;
+  margin-bottom: 4rem;
+  font-weight: 800;
+}
+
+.text-section h1 span {
+  color: transparent;
+  font-size: 4.5rem;
+  -webkit-text-stroke: 3px black;
+}
+
+.text-section p {
+  color: #424242;
+  text-align: justify;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.image-section img {
+  max-width: 50rem;
+}
+
+.design1 {
+  max-width: 30rem;
+  position: absolute;
+  opacity: 0.1;
+  top: 5%;
+  right: 5%;
+  z-index: -1;
+}
+
+.design2 {
+  z-index: -1;
+  max-width: 20rem;
+  position: absolute;
+  opacity: 0.1;
+  bottom: 5%;
+  left: 5%;
+}
+
+.icons-about {
+  left: 2%;
+  position: absolute;
+  max-width: 3.2rem;
+}
+
+.icons-about i {
+  color: black;
+  margin-bottom: 3rem;
+  font-size: 1.5rem;
+  padding: 0.8rem;
+  border: 2px solid black;
+  border-radius: 50%;
+  transition: 0.2s ease-in;
+}
+
+.icons-about i:hover {
+  cursor: pointer;
+  color: white;
+  background-color: black;
+}
+
+.icon1 {
+  animation: iconSlide 2s;
+}
+.icon2 {
+  animation: iconSlide 2.5s;
+}
+
+@keyframes iconSlide {
+  0% {
+    transform: translateX(-100px);
+  }
+  25% {
+    transform: translateX(-100px);
+  }
+  50% {
+    transform: translateX(-100px);
+  }
+  75% {
+    transform: translateX(-100px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 90%;
+  }
+}
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 80%;
+  }
+  .image-section img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 60%;
+  }
+  .image-section {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 50%;
+  }
+  .image-section {
+    width: 100%;
+  }
+}

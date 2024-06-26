@@ -1,0 +1,69 @@
+.refund-policy {
+  max-height: 100vh;
+  animation: transitionInDownToUp 1.5s;
+  padding: 6% 10%;
+  width: 100%;
+}
+
+.design1 {
+  max-width: 30rem;
+  position: absolute;
+  opacity: 0.1;
+  top: 5%;
+  right: 5%;
+}
+
+.design2 {
+  max-width: 20rem;
+  position: absolute;
+  opacity: 0.1;
+  bottom: 5%;
+  left: 5%;
+}
+
+@media screen and (max-width: 1300px) {
+  .refund-policy {
+    padding-top: 6rem;
+  }
+  .refund-policy p {
+    font-size: 2.5rem;
+  }
+  .refund-policy li {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 950px) {
+  refund-policy {
+    padding-top: 6rem;
+  }
+  .refund-policy p {
+    font-size: 3rem;
+  }
+  .refund-policy ul h2 {
+    font-size: 2rem;
+  }
+  .refund-policy li {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .refund-policy {
+    padding-top: 8rem;
+  }
+}
+@media screen and (max-width: 680px) {
+  refund-policy {
+    padding-top: 6rem;
+  }
+  .refund-policy p {
+    font-size: 3.5rem;
+  }
+  .refund-policy ul h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .refund-policy li {
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+  }
+}

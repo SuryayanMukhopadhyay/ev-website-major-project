@@ -1,0 +1,86 @@
+.rentals {
+  max-height: 100vh;
+  animation: transitionInDownToUp 1.5s;
+  padding: 8% 10%;
+  width: 100%;
+}
+
+.rentals-text {
+  color: #424242;
+  text-align: justify;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.rentals-text h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 5rem;
+}
+
+.rentals-text h1 i {
+  margin: 0 1rem;
+}
+
+.rental-image-section {
+  text-align: center;
+}
+
+.rental-image-section img {
+  max-width: 40rem;
+}
+
+.design1 {
+  max-width: 30rem;
+  position: absolute;
+  opacity: 0.1;
+  top: 5%;
+  right: 5%;
+}
+
+.design2 {
+  max-width: 20rem;
+  position: absolute;
+  opacity: 0.1;
+  bottom: 5%;
+  left: 5%;
+}
+
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 90%;
+  }
+  .rentals {
+    padding-top: 6rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 80%;
+  }
+  .rental-image-section img {
+    width: 100%;
+  }
+  .rentals {
+    padding-top: 6rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 60%;
+  }
+  .rental-image-section img {
+    width: 100%;
+  }
+  .rentals {
+    padding-top: 8rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 50%;
+  }
+  .rental-image-section img {
+    width: 100%;
+  }
+}

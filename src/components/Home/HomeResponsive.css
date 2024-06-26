@@ -1,0 +1,134 @@
+@media screen and (max-width: 1500px) {
+  .home {
+    font-size: 90%;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .home {
+    font-size: 85%;
+  }
+  .image-carousel .images img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .home {
+    font-size: 70%;
+  }
+  .image-carousel .images img {
+    width: 100%;
+  }
+  .policy-columns {
+    gap: 10rem;
+  }
+}
+@media screen and (max-width: 1190px) {
+  .home {
+    font-size: 70%;
+  }
+  .image-carousel .images img {
+    width: 100%;
+  }
+  .policy-columns {
+    gap: 10rem;
+  }
+}
+@media screen and (max-width: 1045px) {
+  .home {
+    font-size: 65%;
+  }
+  .image-carousel .images img {
+    width: 100%;
+  }
+  .policy-columns {
+    gap: 10rem;
+  }
+}
+@media screen and (max-width: 980px) {
+  .home {
+    font-size: 60%;
+  }
+  .image-carousel .images img {
+    width: 100%;
+  }
+  .text-container h1 {
+    font-size: 1.2rem;
+  }
+  .policy-columns {
+    flex-direction: column;
+    gap: 10rem;
+  }
+  .cols {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 950px) {
+  .home {
+    font-size: 30%;
+  }
+  .footer {
+    padding: 1rem 5rem;
+  }
+  .image-carousel .images img {
+    width: 100%;
+  }
+  .text-container h1 {
+    visibility: hidden;
+  }
+  .pre-book {
+    padding: 0.5rem;
+  }
+  .policy-columns {
+    flex-direction: column;
+    gap: 10rem;
+  }
+  .cols {
+    width: 100%;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .icons {
+    display: none;
+  }
+  .text-carousel {
+    width: 100%;
+    max-height: 40rem;
+    transform: translateZ(0);
+  }
+}
+@media screen and (max-width: 500px) {
+  .home {
+    font-size: 60%;
+  }
+  .footer {
+    padding: 1rem 5rem;
+  }
+  .image-carousel .images img {
+    width: 100%;
+  }
+  .text-container h1 {
+    visibility: hidden;
+  }
+  .pre-book {
+    padding: 0.5rem;
+  }
+  .policy-columns {
+    flex-direction: column;
+    gap: 10rem;
+  }
+  .cols {
+    width: 100%;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .icons {
+    display: none;
+  }
+  .text-carousel {
+    width: 100%;
+    max-height: 43rem;
+    transform: translateZ(0);
+  }
+}
